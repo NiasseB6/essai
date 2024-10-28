@@ -1,0 +1,68 @@
+header nav ul {
+  display: flex;
+  gap: 25px;
+}
+.parent .enfant1 h2{
+  color: red;
+}
+.parent .enfant2 h2{ 
+  color: green;
+}
+.parent .enfant2 .enfant2-2 h2{
+  color: yellow;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a{
+  text-decoration: none;
+}
+.block1{
+  h3{
+    color: chartreuse;
+  } 
+}
+.block1{
+  .parent1{
+    .div1{
+      h2{
+        color: rgb(166, 9, 116);
+      }
+    }
+  }
+}
+.block1{
+  .parent1{
+    .div1{
+      .div1-2{
+        h2{
+          color: blue;
+        }
+      }
+    }
+  }
+}
+.block1{
+  .parent1{
+    .div1{
+      .div1-2{
+        .div1-2-1{
+          h3{
+            color: crimson;
+          }
+        }
+      }
+    }
+  }
+}
+.parent{
+  .enfant2{
+    .enfant2-2{
+      .vert{
+        h3{
+          color: orangegit;
+        }
+      }
+    }
+  }
+}
